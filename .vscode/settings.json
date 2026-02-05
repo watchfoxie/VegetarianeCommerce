@@ -1,0 +1,26 @@
+{
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.import.gradle.enabled": true,
+  "java.import.gradle.wrapper.enabled": true,
+  "java.import.maven.enabled": false,
+  "java.import.gradle.offline.enabled": false,
+  "java.import.gradle.arguments": "-Dorg.gradle.daemon=true",
+  "android.sdk.path": "${env:ANDROID_HOME}",
+  "files.watcherExclude": {
+    "**/.gradle/**": true,
+    "**/build/**": true,
+    "**/app/build/**": true
+  },
+  "search.exclude": {
+    "**/.gradle/**": true,
+    "**/build/**": true,
+    "**/app/build/**": true
+  },
+  "files.exclude": {
+    "**/.gradle/**": true,
+    "**/build/**": true,
+    "**/app/build/**": true
+  },
+  "java.configuration.runtimes": [],
+  "java.compile.nullAnalysis.mode": "automatic"
+}

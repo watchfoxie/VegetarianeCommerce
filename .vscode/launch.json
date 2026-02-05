@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Attach to Android App",
+      "type": "java",
+      "request": "attach",
+      "hostName": "localhost",
+      "port": 8700,
+      "preLaunchTask": "Gradle: installDebug",
+      "timeout": 20000
+    }
+  ]
+}
