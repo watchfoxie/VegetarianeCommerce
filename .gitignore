@@ -15,6 +15,7 @@
 local.properties
 
 # Misc
+/.github/agents
 docs
 skills
 AGENTS.md
